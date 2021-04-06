@@ -1,0 +1,102 @@
+
+========================================================
+            Network Generation Complete
+========================================================
+Version of DFNGen: 2.2
+Time Stamp: Fri Mar 19 13:07:46 2021
+
+
+________________________________________________________
+
+Statistics Before Isolated Fractures Removed:
+
+Fractures: 40
+Truncated: 34
+
+Total Surface Area:     1619.73 m^2
+Total Fractures Volume: 0.00809866 m^3
+Total Fracture Density   (P30): 0.04
+Total Fracture Intensity (P32): 1.61973
+Total Fracture Porosity  (P33): 8.09866e-06
+
+Family: 1
+    Accepted: 40
+    Rejected: 15
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 1619.73 m^2
+    Volume: 0.00809866 m^3
+    Fracture Intensity (P32): 1.61973
+
+
+________________________________________________________
+
+Statistics After Isolated Fractures Removed:
+Final Number of Fractures: 20
+Isolated Fractures Removed: 20
+Fractures before isolated fractures removed:: 40
+
+Total Surface Area:     1348.13 m^2
+Total Fractures Volume: 0.00674065 m^3
+Total Fracture Density   (P30): 0.02
+Total Fracture Intensity (P32): 1.34813
+Total Fracture Porosity  (P33): 6.74065e-06
+
+Family: 1
+    Fractures After Isolated Fracture Removal: 20
+    Isolated Fractures Removed: 20
+    Accepted: 40
+    Rejected: 15
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 1348.13 m^2
+    Volume: 0.00674065 m^3
+    Fracture Intensity (P32): 1.34813
+
+
+________________________________________________________
+
+
+40 Fractures Accepted (Before Isolated Fracture Removal)
+20 Final Fractures (After Isolated Fracture Removal)
+
+Total Fractures Rejected: 15
+Total Fractures Re-translated: 7149
+
+Number of Triple Intersection Points (Before Isolated Fracture Removal): 0
+
+Intersection Statistics:
+    Number of Intersections: 24 
+    Intersections Shortened: 6 
+    Original Intersection (Before Intersection Shrinking) Length: 111.93 m
+    Intersection Length Discarded: 2.71964 m
+    Final Intersection Length: 109.21 m
+
+Rejection Statistics: 
+    186 Short Intersections 
+    96 Close to Node
+    5161 Close to Edge
+    0 Vertice Close to Edge
+    0 Outside of Domain
+    1719 Triple intersection Rejections
+    2 Intersections Close to Other Intersections
+
+
+________________________________________________________
+
+Fracture Estimation statistics:
+NOTE: If estimation and actual are very different, 
+expected family distributions might not be accurate. 
+If this is the case, try increasing or decreasing 
+the 'radiiListIncrease' option in the input file.
+
+Rectangular Family 1
+Estimated: 40
+Actual:    55
+
+
+________________________________________________________
+
+Seed: 3575503120
+
+Lagrit Should Remove 864 Nodes (1728/2 - 0)

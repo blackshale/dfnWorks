@@ -1,0 +1,15 @@
+Runs times for example
+Function: make_working_directory : 6.03 seconds
+Function: check_input : 0.01 seconds
+Function: create_network : 0.01 seconds
+output_report : 0.00 seconds
+Function: mesh_network : 0.99 seconds
+Process: dfnGen : 7.04 seconds
+Function: lagrit2pflotran : 0.06 seconds
+Function: pflotran : 0.23 seconds
+Function: parse_pflotran_vtk : 0.08 seconds
+Function: pflotran_cleanup : 0.02 seconds
+Function: effective_perm : 0.03 seconds
+Process: dfnFlow : 0.40 seconds
+Function: DFNTrans  : 0.11 seconds
+Process: dfnTrans : 0.11 seconds

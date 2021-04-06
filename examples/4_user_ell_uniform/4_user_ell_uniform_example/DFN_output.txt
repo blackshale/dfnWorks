@@ -1,0 +1,79 @@
+
+========================================================
+            Network Generation Complete
+========================================================
+Version of DFNGen: 2.2
+Time Stamp: Fri Mar 19 12:32:32 2021
+
+
+________________________________________________________
+
+Statistics Before Isolated Fractures Removed:
+
+Fractures: 4
+Truncated: 3
+
+Total Surface Area:     4.32156 m^2
+Total Fractures Volume: 2.16078e-05 m^3
+Total Fracture Density   (P30): 4
+Total Fracture Intensity (P32): 4.32156
+Total Fracture Porosity  (P33): 2.16078e-05
+
+User Defined: 
+    Surface Area: 4.32156 m^2
+    Volume: 2.16078e-05 m^3
+    Fracture Intensity (P32): 4.32156
+
+
+________________________________________________________
+
+Statistics After Isolated Fractures Removed:
+Final Number of Fractures: 4
+Isolated Fractures Removed: 0
+Fractures before isolated fractures removed:: 4
+
+Total Surface Area:     4.32156 m^2
+Total Fractures Volume: 2.16078e-05 m^3
+Total Fracture Density   (P30): 4
+Total Fracture Intensity (P32): 4.32156
+Total Fracture Porosity  (P33): 2.16078e-05
+
+User Defined Shapes: 
+    Surface Area: 4.32156 m^2
+    Volume: 2.16078e-05 m^3
+    Fracture Intensity (P32): 4.32156
+
+
+________________________________________________________
+
+
+4 Fractures Accepted (Before Isolated Fracture Removal)
+4 Final Fractures (After Isolated Fracture Removal)
+
+Total Fractures Rejected: 0
+Total Fractures Re-translated: 0
+
+Number of Triple Intersection Points (Before Isolated Fracture Removal): 0
+
+Intersection Statistics:
+    Number of Intersections: 3 
+    Intersections Shortened: 0 
+    Original Intersection (Before Intersection Shrinking) Length: 2.10294 m
+    Intersection Length Discarded: 0 m
+    Final Intersection Length: 2.10294 m
+
+Rejection Statistics: 
+    0 Short Intersections 
+    0 Close to Node
+    0 Close to Edge
+    0 Vertice Close to Edge
+    0 Outside of Domain
+    0 Triple intersection Rejections
+    0 Intersections Close to Other Intersections
+
+
+________________________________________________________
+
+Seed: 92731535
+
+Lagrit Should Remove 172 Nodes (344/2 - 0)
