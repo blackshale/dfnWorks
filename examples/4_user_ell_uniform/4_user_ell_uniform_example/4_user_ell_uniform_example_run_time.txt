@@ -1,0 +1,9 @@
+Runs times for 4_user_ell_uniform_example
+Function: lagrit2pflotran : 0.16 seconds
+Function: pflotran : 0.48 seconds
+Function: parse_pflotran_vtk : 0.25 seconds
+Function: pflotran_cleanup : 0.03 seconds
+Function: effective_perm : 0.15 seconds
+Process: dfnFlow : 1.07 seconds
+Function: DFNTrans  : 0.11 seconds
+Process: dfnTrans : 0.11 seconds

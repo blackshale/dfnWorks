@@ -1,0 +1,15 @@
+Runs times for TPL_example
+Function: make_working_directory : 2.65 seconds
+Function: check_input : 0.01 seconds
+Function: create_network : 0.05 seconds
+Function: mesh_network : 10.43 seconds
+Process: dfnGen : 13.14 seconds
+Function: lagrit2pflotran : 0.52 seconds
+Function: pflotran : 1.66 seconds
+Function: parse_pflotran_vtk : 1.03 seconds
+Function: pflotran_cleanup : 0.06 seconds
+Function: effective_perm : 0.69 seconds
+Process: dfnFlow : 3.97 seconds
+Function: DFNTrans  : 30.39 seconds
+Process: dfnTrans : 30.39 seconds
+Total Time:  : 47.50 seconds

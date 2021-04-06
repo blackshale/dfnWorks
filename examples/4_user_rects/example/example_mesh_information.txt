@@ -1,0 +1,4 @@
+The final mesh of DFN consists of: 
+3612 triangular elements; 
+1832  nodes / control volume cells; 
+12718 geometrical coefficients / control volume faces. 

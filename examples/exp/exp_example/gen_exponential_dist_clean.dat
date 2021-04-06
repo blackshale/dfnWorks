@@ -1,0 +1,92 @@
+esd: {1}
+insertUserRectanglesFirst: 1
+keepOnlyLargestCluster: 0
+keepIsolatedFractures: 0
+rmin: {1.5,  0.5, 0.5, 0.5, 0.5, 0.5}
+rAngleOption: 1
+boundaryFaces: {1, 1, 1, 1, 1, 1}
+userRectanglesOnOff: 0
+printRejectReasons: 0
+numOfLayers: 0
+numOfRegions: 0
+RectByCoord_Input_File_Path: ./inputFiles/userPolygons/rectCoords.dat
+eLogMean: {4}
+rExpMin: {1.0}
+lengthCorrelatedAperture: {5e-5,  0.5}
+ebetaDistribution: {0, 0}
+tripleIntersections: 0
+layers: {} 
+regions: {} 
+stdAperture: 0.8
+ealpha: {2.4}
+constantPermeability: 1e-12
+rLogMax: {5.0,  5.0,  30.0,  30.0,  15.0,  15.0}
+rLogMean: {1.250, 1.250, 1.250, 1.250, 1.250, 1.250}
+nFamRect: 1
+etheta: {0,  45}
+eLogMax: {15}
+rphi: {80.82}
+outputAllRadii: 0
+r_p32Targets: {0.5}
+permOption: 1
+userRecByCoord: 0
+UserRect_Input_File_Path: ./inputFiles/userPolygons/uRectInput.dat
+userEllByCoord: 0
+EllByCoord_Input_File_Path: ./inputFiles/userPolygons/rectCoords.dat
+userEllipsesOnOff: 0
+UserEll_Input_File_Path: ./inputFiles/userPolygons/uEllInput.dat
+userPolygonByCoord: 0
+PolygonByCoord_Input_File_Path: ./
+rExpMean: {3.373}
+rbetaDistribution: {1}
+aperture: 3
+emax: {6}
+eExpMean: {2}
+e_p32Targets: {.1, .1}
+eLayer: {0, 0}
+eRegion: {0, 0}
+domainSizeIncrease: {0.0, 0.0, 0.0}
+h: 0.25
+outputFinalRadiiPerFamily: 1
+rbeta: {0.0}
+rLogMin: {0.5,  0.5,  0.5,  0.5,  0.5,  0.5}
+edistr: {2, 3}
+domainSize: {10.0, 10.0, 10.0}
+eExpMin: {1}
+ekappa: {8, 10}
+rLayer: {0}
+rRegion: {0}
+seed: 3575503120
+constantAperture: 1e-5
+stopCondition: 0
+enumPoints: {8,  12}
+meanAperture: 3
+eLogMin: {1}
+easpect: {1.1, 1.2}
+rtheta: {9.52}
+rdistr: {3}
+rconst: {4, 6, 3}
+rExpMax: {50.0}
+ignoreBoundaryFaces: 0
+visualizationMode: 0
+outputAcceptedRadiiPerFamily: 1
+apertureFromTransmissivity: {1.6e-9,  0.8}
+rsd: {0.877,  0.877,  0.877,  0.877,  0.877,  0.877}
+ebeta: {0,  0}
+nFamEll: 0
+econst: {10}
+raspect: {1.0}
+eAngleOption: 0
+emin: {1}
+ephi: {0, 0}
+rmax: {125, 125, 125, 125, 125, 125}
+famProb: {1.0}
+disableFram: 0
+ralpha: {2.0, 2.6, 2.01, 2.0, 2.6, 2.01}
+nPoly: 40
+rejectsPerFracture: 350
+rkappa: {1.0}
+eExpMax: {10}
+forceLargeFractures: 1
+radiiListIncrease: 0.0
+removeFracturesLessThan: 0
