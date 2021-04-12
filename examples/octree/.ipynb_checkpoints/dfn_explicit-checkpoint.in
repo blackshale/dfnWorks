@@ -9,7 +9,7 @@ SIMULATION
       MODE RICHARDS
     /
     SUBSURFACE_TRANSPORT transport
-      MODE GIRT
+      GLOBAL_IMPLICIT
     /
   /
   CHECKPOINT

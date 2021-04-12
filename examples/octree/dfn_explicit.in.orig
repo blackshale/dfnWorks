@@ -9,7 +9,7 @@ SIMULATION
       MODE RICHARDS
     /
     SUBSURFACE_TRANSPORT transport
-      MODE GIRT
+      GLOBAL_IMPLICIT
     /
   /
   CHECKPOINT
@@ -18,12 +18,6 @@ SIMULATION
   /
 END
 SUBSURFACE
-
-#=========================== numerical methods ================================
-NUMERICAL_METHODS TRANSPORT
-
-
-END
 
 CHEMISTRY
   PRIMARY_SPECIES
@@ -40,6 +34,9 @@ GRID
   GRAVITY 0.d0 0.d0 0.d0
 END
 
+NEWTON_SOLVER TRANSPORT
+  ITOL 1.d-8
+END
 
 #=========================== fluid properties =================================
 FLUID_PROPERTY
