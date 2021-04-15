@@ -1,0 +1,8 @@
+numpy
+scipy
+h5py
+pyvtk
+fpdf
+networkx>=2.4
+mplstereonet
+matplotlib<3.0

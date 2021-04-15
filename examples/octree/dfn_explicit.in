@@ -12,19 +12,15 @@ SIMULATION
       MODE GIRT
     /
   /
-  CHECKPOINT
-    FORMAT HDF5
-    TIMES s 100000.0d0
-  /
+#  CHECKPOINT
+#    FORMAT HDF5
+#    TIMES s 100000.0d0
+#  /
 END
 SUBSURFACE
 
 #=========================== numerical methods ================================
-NUMERICAL_METHODS TRANSPORT
-
-
-END
-
+ 
 CHEMISTRY
   PRIMARY_SPECIES
     TRACER
@@ -38,6 +34,12 @@ END
 GRID
   TYPE unstructured_explicit full_mesh.uge 
   GRAVITY 0.d0 0.d0 0.d0
+END
+
+NUMERICAL_METHODS TRANSPORT
+  NEWTON_SOLVER
+    ITOL 1.d-8
+  / 
 END
 
 
