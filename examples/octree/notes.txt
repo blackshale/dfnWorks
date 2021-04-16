@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 python3 run_cont.py -name /home/bjung/github/dfnWorks/examples/octree/octree_example -input octree_run_file.txt -ncpu 8
-=======
-python run_cont.py -name /home/bjung/github/dfnworks-main/examples/octree/octree_example -input octree_run_file.txt -ncpu 8
->>>>>>> 8c95714355037d0ae0c25a9d9e5ce153524a529c

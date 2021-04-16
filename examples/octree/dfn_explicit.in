@@ -9,7 +9,6 @@ SIMULATION
       MODE RICHARDS
     /
     SUBSURFACE_TRANSPORT transport
-<<<<<<< HEAD
       MODE GIRT
     /
   /
@@ -22,18 +21,6 @@ SUBSURFACE
 
 #=========================== numerical methods ================================
  
-=======
-      GLOBAL_IMPLICIT
-    /
-  /
-  CHECKPOINT
-    FORMAT HDF5
-    TIMES s 100000.0d0
-  /
-END
-SUBSURFACE
-
->>>>>>> 8c95714355037d0ae0c25a9d9e5ce153524a529c
 CHEMISTRY
   PRIMARY_SPECIES
     TRACER
@@ -49,20 +36,11 @@ GRID
   GRAVITY 0.d0 0.d0 0.d0
 END
 
-<<<<<<< HEAD
 NUMERICAL_METHODS TRANSPORT
   NEWTON_SOLVER
     ITOL 1.d-8
   / 
 END
-
-
-=======
-NEWTON_SOLVER TRANSPORT
-  ITOL 1.d-8
-END
-
->>>>>>> 8c95714355037d0ae0c25a9d9e5ce153524a529c
 #=========================== fluid properties =================================
 FLUID_PROPERTY
   DIFFUSION_COEFFICIENT 1.d-12

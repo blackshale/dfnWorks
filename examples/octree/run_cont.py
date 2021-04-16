@@ -27,15 +27,9 @@ DFN.inp_file = "octree_dfn.inp"
 DFN.map_to_continuum(l=0.1,orl=3)
 DFN.upscale(mat_perm=1e-15,mat_por=0.01)
 
-<<<<<<< HEAD
 restart_file = "/home/bjung/github/dfnWorks/examples/octree_example/dfn_restart.in"
 DFN.zone2ex(uge_file='full_mesh.uge',zone_file='all')
 #DFN.pflotran(restart=True,restart_file=restart_file)
-=======
-restart_file = "/home/bjung/github/dfnworks-main/examples/octree_example/dfn_restart.in"
-DFN.zone2ex(uge_file='full_mesh.uge',zone_file='all')
-DFN.pflotran(restart=True,restart_file=restart_file)
->>>>>>> 8c95714355037d0ae0c25a9d9e5ce153524a529c
 DFN.pflotran()
 
 DFN.parse_pflotran_vtk_python(grid_vtk_file='')
