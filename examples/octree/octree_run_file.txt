@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 dfnGen /home/bjung/github/dfnWorks/examples/octree/gen_4_user_rectangles.dat
 dfnFlow /home/bjung/github/dfnWorks/examples/octree/dfn_explicit.in
+=======
+dfnGen /home/bjung/github/dfnworks-main/examples/octree/gen_4_user_rectangles.dat
+dfnFlow /home/bjung/github/dfnworks-main/examples/octree/dfn_explicit.in
+>>>>>>> 8c95714355037d0ae0c25a9d9e5ce153524a529c
 dfnTrans /None/none
