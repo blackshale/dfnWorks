@@ -64,3 +64,4 @@ internal/Documentation/sphinx-docs/build/*
 *.swp
 
 
+examples/octree/octree_example/
