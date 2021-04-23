@@ -1,0 +1,92 @@
+esd: {.5}
+insertUserRectanglesFirst: 1
+keepOnlyLargestCluster: 0
+keepIsolatedFractures: 0
+rmin: {1, 1}
+rAngleOption: 0
+boundaryFaces: {1, 1, 0, 0, 0, 0}
+userRectanglesOnOff: 1
+printRejectReasons: 0
+numOfLayers: 0
+numOfRegions: 0
+RectByCoord_Input_File_Path: ./inputFiles/userPolygons/rectCoords.dat
+eLogMean: {2}
+rExpMin: {1}
+lengthCorrelatedAperture: {5e-5,  0.5}
+ebetaDistribution: {1, 1}
+tripleIntersections: 1
+layers: {-500, 0} {0, 500} 
+regions: {} 
+stdAperture: 0.8
+ealpha: {2.4}
+constantPermeability: 1e-12
+rLogMax: {100}
+rLogMean: {1.6}
+nFamRect: 0
+etheta: {-45,  45, }
+eLogMax: {100}
+rphi: {0, 45}
+outputAllRadii: 0
+r_p32Targets: {.1, .1}
+permOption: 1
+userRecByCoord: 0
+UserRect_Input_File_Path: /home/bjung/github/dfnWorks/examples/octree/define_4_user_rects.dat
+userEllByCoord: 0
+EllByCoord_Input_File_Path: /home/jharrod/GitProjects/DFNGen/DFNC++Version/inputFiles/userPolygons/ellCoords.dat
+userEllipsesOnOff: 0
+UserEll_Input_File_Path: ./TestCases/test/uEllInput.dat
+userPolygonByCoord: 0
+PolygonByCoord_Input_File_Path: ./
+rExpMean: {2}
+rbetaDistribution: {1, 1}
+aperture: 3
+emax: {6}
+eExpMean: {2}
+e_p32Targets: {.1, .1}
+eLayer: {0, 0}
+eRegion: {0, 0}
+domainSizeIncrease: {0.0, 0.0, 0.0}
+h: 0.05
+outputFinalRadiiPerFamily: 1
+rbeta: {0, 0}
+rLogMin: {1}
+edistr: {2, 3}
+domainSize: {1.0, 1.0, 1.0}
+eExpMin: {1}
+ekappa: {8, 8}
+rLayer: {0, 0}
+rRegion: {}
+seed: 92731535
+constantAperture: 0.00125
+stopCondition: 0
+enumPoints: {12,  12}
+meanAperture: -3
+eLogMin: {1}
+easpect: {1, 1}
+rtheta: {-45, 45}
+rdistr: {2, 3}
+rconst: {4, 4}
+rExpMax: {100}
+ignoreBoundaryFaces: 1
+visualizationMode: 1
+outputAcceptedRadiiPerFamily: 1
+apertureFromTransmissivity: {1.6e-9,  0.8}
+rsd: {.4}
+ebeta: {0,  0}
+nFamEll: 0
+econst: {10,  10,  10}
+raspect: {1, 1}
+eAngleOption: 0
+emin: {1}
+ephi: {0, 0}
+rmax: {6, 5}
+famProb: {0.5, 0.5}
+disableFram: 0
+ralpha: {2.4, 2.5}
+nPoly: 3
+rejectsPerFracture: 10
+rkappa: {8, 8}
+eExpMax: {3}
+forceLargeFractures: 0
+radiiListIncrease: 0.1
+removeFracturesLessThan: 0

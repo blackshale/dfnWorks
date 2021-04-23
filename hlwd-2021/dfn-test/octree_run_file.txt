@@ -1,0 +1,3 @@
+dfnGen /home/bjung/github/dfnWorks/examples/octree/gen_4_user_rectangles.dat
+dfnFlow /home/bjung/github/dfnWorks/examples/octree/dfn_explicit.in
+dfnTrans /None/none

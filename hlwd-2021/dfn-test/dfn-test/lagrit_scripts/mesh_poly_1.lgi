@@ -1,0 +1,37 @@
+
+
+# LaGriT Parameter file 
+infile parameters_1.mlgi
+
+# Name of input files that contains the boundary of the polygon/fracture 
+
+define / POLY_FILE / poly_1.inp
+
+## Triangulate Fracture perimeter without point addition 
+read / POLY_FILE / mo_poly_work
+cmo / create / mo_pts / / / triplane 
+copypts / mo_pts / mo_poly_work 
+cmo / select / mo_pts 
+triangulate / counterclockwise 
+
+cmo / setatt / mo_pts / imt / 1 0 0 / ID 
+cmo / setatt / mo_pts / itetclr / 1 0 0 / ID 
+resetpts / itp 
+cmo / delete / mo_poly_work 
+cmo / select / mo_pts 
+
+# Create Family element set
+cmo / addatt / mo_pts / family_id / vint / scalar / nelements 
+cmo / setatt / mo_pts / family_id / 1 0 0 / FAMILY
+
+# Rotate 
+rotateln / 1 0 0 / nocopy / X1, Y1, Z1 / X2, Y2, Z2 / THETA / 0.,0.,0.,/ 
+# Supress AVS output of a icr and isn node attributes
+cmo / modatt / mo_pts / icr1 / ioflag / l 
+cmo / modatt / mo_pts / isn1 / ioflag / l
+cmo / copy/ mo_final /mo_pts
+# Output mesh in AVS UCD format and LaGriT binary format.
+dump / lagrit / OUTFILE_LG / mo_final 
+dump / OUTFILE_AVS / mo_final 
+finish
+

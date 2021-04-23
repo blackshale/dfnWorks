@@ -1,0 +1,22 @@
+
+# Change to read LaGriT
+read / lagrit /  mesh_1.lg / mo_1 / binary
+cmo / move / mo_1 / mo_final 
+define / MO_NAME_FRAC / mo_1
+
+addmesh / merge / cmo_tmp / cmo_tmp / mo_1
+cmo / delete / mo_1
+
+# Change to read LaGriT
+read / lagrit /  mesh_2.lg / mo_2 / binary
+cmo / move / mo_2 / mo_final 
+define / MO_NAME_FRAC / mo_2
+
+addmesh / merge / cmo_tmp / cmo_tmp / mo_2
+cmo / delete / mo_2
+#Writing out merged fractures
+ 
+cmo select cmo_tmp
+dump lagrit part1.lg cmo_tmp
+finish 
+ 
