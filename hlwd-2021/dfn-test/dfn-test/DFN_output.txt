@@ -3,77 +3,126 @@
             Network Generation Complete
 ========================================================
 Version of DFNGen: 2.2
-Time Stamp: Fri Apr 23 14:37:57 2021
+Time Stamp: Mon Apr 26 18:58:27 2021
 
+Family 1 target P32 = 0.5, Final P32 = 0.500912
+Family 2 target P32 = 0.5, Final P32 = 0.508481
 
 ________________________________________________________
 
 Statistics Before Isolated Fractures Removed:
 
-Fractures: 4
-Truncated: 4
+Fractures: 62
+Truncated: 44
 
-Total Surface Area:     6.2 m^2
-Total Fractures Volume: 0.003875 m^3
-Total Fracture Density   (P30): 4
-Total Fracture Intensity (P32): 6.2
-Total Fracture Porosity  (P33): 0.003875
+Total Surface Area:     1009.39 m^2
+Total Fractures Volume: 0.630871 m^3
+Total Fracture Density   (P30): 0.062
+Total Fracture Intensity (P32): 1.00939
+Total Fracture Porosity  (P33): 0.000630871
 
-User Defined: 
-    Surface Area: 6.2 m^2
-    Volume: 0.003875 m^3
-    Fracture Intensity (P32): 6.2
+Family: 1
+    Accepted: 35
+    Rejected: 0
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 500.912 m^2
+    Volume: 0.31307 m^3
+    Fracture Intensity (P32): 0.500912
+
+Family: 2
+    Accepted: 27
+    Rejected: 0
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 508.481 m^2
+    Volume: 0.317801 m^3
+    Fracture Intensity (P32): 0.508481
 
 
 ________________________________________________________
 
 Statistics After Isolated Fractures Removed:
-Final Number of Fractures: 4
-Isolated Fractures Removed: 0
-Fractures before isolated fractures removed:: 4
+Final Number of Fractures: 35
+Isolated Fractures Removed: 27
+Fractures before isolated fractures removed:: 62
 
-Total Surface Area:     6.2 m^2
-Total Fractures Volume: 0.003875 m^3
-Total Fracture Density   (P30): 4
-Total Fracture Intensity (P32): 6.2
-Total Fracture Porosity  (P33): 0.003875
+Total Surface Area:     719.362 m^2
+Total Fractures Volume: 0.449601 m^3
+Total Fracture Density   (P30): 0.035
+Total Fracture Intensity (P32): 0.719362
+Total Fracture Porosity  (P33): 0.000449601
 
-User Defined Shapes: 
-    Surface Area: 6.2 m^2
-    Volume: 0.003875 m^3
-    Fracture Intensity (P32): 6.2
+Family: 1
+    Fractures After Isolated Fracture Removal: 19
+    Isolated Fractures Removed: 16
+    Accepted: 35
+    Rejected: 0
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 376.81 m^2
+    Volume: 0.235506 m^3
+    Fracture Intensity (P32): 0.37681
+
+Family: 2
+    Fractures After Isolated Fracture Removal: 16
+    Isolated Fractures Removed: 11
+    Accepted: 27
+    Rejected: 0
+    Layer: Whole Domain 
+    Region: Whole Domain 
+    Surface Area: 342.552 m^2
+    Volume: 0.214095 m^3
+    Fracture Intensity (P32): 0.342552
 
 
 ________________________________________________________
 
 
-4 Fractures Accepted (Before Isolated Fracture Removal)
-4 Final Fractures (After Isolated Fracture Removal)
+62 Fractures Accepted (Before Isolated Fracture Removal)
+35 Final Fractures (After Isolated Fracture Removal)
 
 Total Fractures Rejected: 0
-Total Fractures Re-translated: 0
+Total Fractures Re-translated: 49
 
 Number of Triple Intersection Points (Before Isolated Fracture Removal): 0
 
 Intersection Statistics:
-    Number of Intersections: 3 
-    Intersections Shortened: 0 
-    Original Intersection (Before Intersection Shrinking) Length: 3 m
-    Intersection Length Discarded: 0 m
-    Final Intersection Length: 3 m
+    Number of Intersections: 28 
+    Intersections Shortened: 16 
+    Original Intersection (Before Intersection Shrinking) Length: 48.2355 m
+    Intersection Length Discarded: 1.26703 m
+    Final Intersection Length: 46.9685 m
 
 Rejection Statistics: 
-    0 Short Intersections 
-    0 Close to Node
-    0 Close to Edge
+    1 Short Intersections 
+    2 Close to Node
+    45 Close to Edge
     0 Vertice Close to Edge
     0 Outside of Domain
-    0 Triple intersection Rejections
+    1 Triple intersection Rejections
     0 Intersections Close to Other Intersections
+
+
+________________________________________________________
+
+Fracture Estimation statistics:
+NOTE: If estimation and actual are very different, 
+expected family distributions might not be accurate. 
+If this is the case, try increasing or decreasing 
+the 'radiiListIncrease' option in the input file.
+
+Ellipse Family 1
+Estimated: 36
+Actual:    35
+
+Ellipse Family 2
+Estimated: 30
+Actual:    27
 
 
 ________________________________________________________
 
 Seed: 92731535
 
-Lagrit Should Remove 6 Nodes (12/2 - 0)
+Lagrit Should Remove 56 Nodes (112/2 - 0)

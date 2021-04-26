@@ -13,12 +13,12 @@ define / H_SCALE2 / 7.500000e-02
 define / H_EXTRUDE / 2.500000e-02 
 define / H_TRANS / -0.000807 
 define / H_PRIME / 2.000000e-02 
-define / THETA  / 0.000000000000 
-define / X1 /  -0.000000000000 
-define / Y1 / -0.000000000000 
+define / THETA  / 87.914093388527 
+define / X1 /  -1.838075841739 
+define / Y1 / 109.984642006055 
 define / Z1 / -0.000000000000 
-define / X2 / 0.000000000000 
-define / Y2 / 0.000000000000 
+define / X2 / 1.838075841739 
+define / Y2 / -109.984642006055 
 define / Z2 / 0.000000000000 
-define / FAMILY / 2 
+define / FAMILY / 1 
 finish 

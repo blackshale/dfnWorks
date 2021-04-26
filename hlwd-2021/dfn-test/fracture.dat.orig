@@ -1,13 +1,13 @@
 /==============================================================================
 //Gereral Options & Fracture Network Parameters: 
 
-stopCondition: 1
+stopCondition: 0
     /* 0: stop once nPoly fractures are accepted (Defined below)
        1: stop once all family's p32 values are equal or greater than the families
                    target p32 values (defined in stochastic family sections)
     */             
 
-nPoly: 10
+nPoly: 3
      /* Used when stopCondition = 0
            Total number of fractures you would like to have 
             in the domain you defined. The program will complete 
@@ -25,7 +25,7 @@ outputAllRadii: 0
 */
                       
 
-domainSize: {10,10,10} 
+domainSize: {1,1,1} 
      /* Mandatory Parameter.
         Creates a domain with dimension x*y*z centered at the origin.*/
 
@@ -168,8 +168,8 @@ famProb: {.5,.5}
 /*===========================================================================*/
 
 //Number of ellipse families
-nFamEll: 2
-    //Having this option = 0 will ignore all elliptical family variables
+nFamEll: 0
+    //Having this option = 0 will ignore all rectangle family variables
 
 eLayer: {0,0}
     /* Defines which domain the family belongs to.
@@ -199,7 +199,7 @@ ebetaDistribution: {1,1}   /* Beta is the rotation around the polygon's normal
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {.5,.5} 
+e_p32Targets: {.1,.1} 
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
@@ -222,7 +222,7 @@ eAngleOption: 0     /* All angles for ellipses:
                        0 - degrees
                        0 - Radians (Must use numerical value for PI) */
                         
-etheta: {-45, 45} /*Ellipse fracture orientation.
+etheta: {-45, 45,} /*Ellipse fracture orientation.
                      The angle the normal vector makes with the z-axis */
 
 ephi: {0,0}   /* Ellipse fracture orientation.
@@ -445,7 +445,7 @@ EllByCoord_Input_File_Path: /home/jharrod/GitProjects/DFNGen/DFNC++Version/input
          user-rectangle, with possibility of being rejected  */
          
 
-userRectanglesOnOff: 0    //0 - User Rectangles off
+userRectanglesOnOff: 1    //0 - User Rectangles off
                         //1 - User Rectangles on
                           
 UserRect_Input_File_Path: /home/bjung/github/dfnWorks/examples/octree/define_4_user_rects.dat 

@@ -1,19 +1,43 @@
 
 # Change to read LaGriT
-read / lagrit /  mesh_3.lg / mo_3 / binary
-cmo / move / mo_3 / mo_final 
-define / MO_NAME_FRAC / mo_3
+read / lagrit /  mesh_6.lg / mo_6 / binary
+cmo / move / mo_6 / mo_final 
+define / MO_NAME_FRAC / mo_6
 
-addmesh / merge / cmo_tmp / cmo_tmp / mo_3
-cmo / delete / mo_3
+addmesh / merge / cmo_tmp / cmo_tmp / mo_6
+cmo / delete / mo_6
 
 # Change to read LaGriT
-read / lagrit /  mesh_4.lg / mo_4 / binary
-cmo / move / mo_4 / mo_final 
-define / MO_NAME_FRAC / mo_4
+read / lagrit /  mesh_7.lg / mo_7 / binary
+cmo / move / mo_7 / mo_final 
+define / MO_NAME_FRAC / mo_7
 
-addmesh / merge / cmo_tmp / cmo_tmp / mo_4
-cmo / delete / mo_4
+addmesh / merge / cmo_tmp / cmo_tmp / mo_7
+cmo / delete / mo_7
+
+# Change to read LaGriT
+read / lagrit /  mesh_8.lg / mo_8 / binary
+cmo / move / mo_8 / mo_final 
+define / MO_NAME_FRAC / mo_8
+
+addmesh / merge / cmo_tmp / cmo_tmp / mo_8
+cmo / delete / mo_8
+
+# Change to read LaGriT
+read / lagrit /  mesh_9.lg / mo_9 / binary
+cmo / move / mo_9 / mo_final 
+define / MO_NAME_FRAC / mo_9
+
+addmesh / merge / cmo_tmp / cmo_tmp / mo_9
+cmo / delete / mo_9
+
+# Change to read LaGriT
+read / lagrit /  mesh_10.lg / mo_10 / binary
+cmo / move / mo_10 / mo_final 
+define / MO_NAME_FRAC / mo_10
+
+addmesh / merge / cmo_tmp / cmo_tmp / mo_10
+cmo / delete / mo_10
 #Writing out merged fractures
  
 cmo select cmo_tmp
