@@ -23,6 +23,14 @@ read / lagrit / part6.lg / junk / binary
 addmesh / merge / mo_all / mo_all / cmo_tmp 
 cmo / delete / cmo_tmp 
     
+read / lagrit / part7.lg / junk / binary
+addmesh / merge / mo_all / mo_all / cmo_tmp 
+cmo / delete / cmo_tmp 
+    
+read / lagrit / part8.lg / junk / binary
+addmesh / merge / mo_all / mo_all / cmo_tmp 
+cmo / delete / cmo_tmp 
+    
 # Appending the meshes complete 
 # LaGriT Code to remove duplicates and output the mesh
 cmo / select / mo_all 

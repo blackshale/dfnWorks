@@ -16,6 +16,12 @@ cmo/delete/cmo_tmp
 read/lagrit/part6.lg/junk/binary                                                
 addmesh/merge/mo_all/mo_all/cmo_tmp                                             
 cmo/delete/cmo_tmp                                                              
+read/lagrit/part7.lg/junk/binary                                                
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/delete/cmo_tmp                                                              
+read/lagrit/part8.lg/junk/binary                                                
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/delete/cmo_tmp                                                              
 cmo/select/mo_all                                                               
 define/EPS/1.000000e-06                                                         
 define/EPS_FILTER/1.000000e-04                                                  

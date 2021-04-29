@@ -2,7 +2,7 @@ Ellipse Family: 1
 Global Family: 1
 Number of Vertices: 12
 Aspect Ratio: 1
-P32 (Fracture Intensity) Target: 0.3
+P32 (Fracture Intensity) Target: 2.85
 Beta (Rotation Around Normal Vector)-rad: 0
 Beta (Rotation Around Normal Vector)-deg: 0
 Theta-rad: 49
@@ -22,7 +22,7 @@ Ellipse Family: 2
 Global Family: 2
 Number of Vertices: 12
 Aspect Ratio: 1
-P32 (Fracture Intensity) Target: 0.3
+P32 (Fracture Intensity) Target: 2.57
 Beta (Rotation Around Normal Vector)-rad: 0
 Beta (Rotation Around Normal Vector)-deg: 0
 Theta-rad: 35
