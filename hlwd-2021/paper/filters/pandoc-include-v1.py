@@ -1,4 +1,5 @@
 import re, argparse
+import sys, importlib
 
 def replace_include(infile, outfile):
     # below two lines are added to suppress warnings when no !include line present

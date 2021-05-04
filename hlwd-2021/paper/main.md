@@ -3,7 +3,7 @@
 
 ## Abstract
 
-Fracture and joint measurements from the field, for example, fracture orientation and aperture data, and length measurements by scan line method, can be reproduced to statistically identical joint sets. The statistical joint sets are assumed to have equal hydrogeological and geomechanical properties to those of the original base rocks.
+한글 Fracture and joint measurements from the field, for example, fracture orientation and aperture data, and length measurements by scan line method, can be reproduced to statistically identical joint sets. The statistical joint sets are assumed to have equal hydrogeological and geomechanical properties to those of the original base rocks.
 
 We analyze joints properties obtained in situ to estimate useful hydrogeological parameters such as permeability and anisotropic raito of the fractured aquifer. To do this, first we group all the measured joints into subsets which assumed to follow fisher distribution. Fracture lengths and aperture data are best if obtainable from the field, otherwise it can be set under proper assumptions.
 
@@ -48,7 +48,7 @@ Joint data are filtered to
 
 Generalized qualitative classification criteria for the fracture system is organized in @tbl:class_frac. Order 4 fracture is our concern because we assume that the candidate sites are generally located in a selected pure basement rock block free of regional fracture sets.
 
-!include tables/classification_fracture.md
+!include tables/classification_fracture0.md
 : Generalized qualitative classification criteria for the fracture system {#tbl:class_frac}
 
 

@@ -1,3 +1,6 @@
+$(info ***INFO:If you encounter ascii.py error, check your python version is >=3.8)
+
+
 fig = ./figures/
 tab = ./tables/
 bib = ./ref.bib
