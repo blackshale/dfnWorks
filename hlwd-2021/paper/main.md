@@ -29,28 +29,35 @@ The scope of this paper: Generating joint sets representing the sites using bore
 ## Backgrounds
 
 **Discrete fracture network model**
+
 Previous studies on DFN model: history and important issues, Who did what, What important papers directly related to this paper.
 
 **Reactive transport model of nuclear waste disposal site**
+
 Previous studies, case studies, good examples utilize reactive transport model and DFN model techniques.
 What they found out and key issues to be solved.
 
 ## Methods
 
 **Joint set grouping**
+
 Joint data available from the borehole television include orientation, aperture, and spacing of fracture.
 Not all joints are needed to estimate hydraulic properties of the rock. Some joints are closed or isolated from other joint cluster and not involved in groundwater flow. We only consider joints that are assumed to be open and works as groundwater conduits.
 
 How do we know the fracture is open? We assume that the joints located in the permeable intervals which identified as conduits are open and actively engaged in conduit groundwater. The permeable intervals are identified by separately operated Lugeon tests performed 4-8m intervals along the borehole.
 
+Joint data are filtered by depth and only joints in the permeable zones will be used for analysis.
+Permeable zones in Wonju testing site are listed in @tbl:permeable_zone.
 
-Joint data are filtered to
+!include tables/permeable_zone.md
+
+:Permeable zone depths in the test borehole in Wonju {#tbl:permeable_zone}
 
 Generalized qualitative classification criteria for the fracture system is organized in @tbl:class_frac. Order 4 fracture is our concern because we assume that the candidate sites are generally located in a selected pure basement rock block free of regional fracture sets.
 
 !include tables/classification_fracture0.md
-: Generalized qualitative classification criteria for the fracture system {#tbl:class_frac}
 
+:Generalized qualitative classification criteria for the fracture system {#tbl:class_frac}
 
 
 ## Results and Discussion
