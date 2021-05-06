@@ -84,7 +84,7 @@ visualizationMode: 0
    1: produce only first round of triangulations. In this case no 
    modeling of flow and transport is possible. */ 
 
-seed: 92731535
+seed: 92731534
     //Seed for random generator. 
         
 
@@ -199,7 +199,7 @@ ebetaDistribution: {1,1}   /* Beta is the rotation around the polygon's normal
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {0.3,0.3} 
+e_p32Targets: {2.85,2.57} 
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
