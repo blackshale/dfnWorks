@@ -1,0 +1,41 @@
+Ellipse Family: 1
+Global Family: 1
+Number of Vertices: 12
+Aspect Ratio: 1
+P32 (Fracture Intensity) Target: 0.5
+Beta (Rotation Around Normal Vector)-rad: 0
+Beta (Rotation Around Normal Vector)-deg: 0
+Theta-rad: -45
+Theta-deg: -2578.31
+Phi-rad: 0
+Phi-deg: 0
+Kappa: 8
+Layer: Entire domain
+Region: Entire domain
+Distribution: Truncated Power-Law
+Alpha: 2.4
+Minimum Radius (m): 1
+Maximum Radius (m): 6
+Family Insertion Probability: 0.5
+
+Ellipse Family: 2
+Global Family: 2
+Number of Vertices: 12
+Aspect Ratio: 1
+P32 (Fracture Intensity) Target: 0.5
+Beta (Rotation Around Normal Vector)-rad: 0
+Beta (Rotation Around Normal Vector)-deg: 0
+Theta-rad: 45
+Theta-deg: 2578.31
+Phi-rad: 0
+Phi-deg: 0
+Kappa: 8
+Layer: Entire domain
+Region: Entire domain
+Distribution: Exponential
+Mean: 2
+Lambda: 0.5
+Minimum Radius (m): 1
+Maximum Radius (m): 3
+Family Insertion Probability: 0.5
+
