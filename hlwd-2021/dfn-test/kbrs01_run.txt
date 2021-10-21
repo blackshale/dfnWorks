@@ -1,3 +1,3 @@
-dfnGen /home/bjung/github/dfnWorks/hlwd-2021/dfn-test/kbrs01_fracture.dat
+dfnGen /home/bjung/github/dfnWorks/hlwd-2021/dfn-test/kbrs01_frac002.dat
 dfnFlow /home/bjung/github/dfnWorks/hlwd-2021/dfn-test/kbrs01_explicit.in
 dfnTrans /None/none
